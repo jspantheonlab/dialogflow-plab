@@ -1,0 +1,16 @@
+{
+  "name": "dfe8a313-67d5-4d4f-876a-57a00aaa1ca3",
+  "displayName": "adsly2.ai",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "adsly.ai can generate customized ads videos with automatic slogans and captions which you can share on different social platforms to boost your brand." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": []
+}
