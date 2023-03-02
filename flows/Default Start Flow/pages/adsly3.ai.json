@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "displayName": "adsly3.ai",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "adsly.ai can generate customized ads videos with automatic slogans and captions which you can share on different social platforms to boost your brand." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Our Products",
+    "name": "7d56562d-cf21-4fa5-8452-fc112858c883"
+  }]
+}
