@@ -1,0 +1,28 @@
+{
+  "name": "811ecac3-abe9-4153-b841-672c48943af9",
+  "displayName": "Pantheon Lab",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We are a Hong Kong deep learning startup founded in 2019, We focus on synthesized content technology and aiming to provide quality solutions that serve multi media industries.", "We are a Deep Learning Company focusing on self generated Visual Content technology and building Marketing Solutions with A.I." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Please ask any other information you would like to know about our company." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "ab0ecc43-b0ec-457e-ae84-891ef3a012bf"
+  } ]
+}

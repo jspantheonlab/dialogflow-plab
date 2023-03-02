@@ -1,0 +1,15 @@
+{
+  "name": "eefdfaba-2f3f-445a-b346-15f84e320371",
+  "displayName": "AIDOL Assistant",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "this is assist" ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

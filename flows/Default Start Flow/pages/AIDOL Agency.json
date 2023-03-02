@@ -1,0 +1,28 @@
+{
+  "name": "9e2c0f77-c50c-4607-9eb4-8e9d6cc55937",
+  "displayName": "AIDOL Agency",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "AIDOL Agency is an Agency that create photorealistic Digital Humans and put them into live actions." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Which product would you like to know about next?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Our Products",
+    "name": "f62d4e24-37c1-4276-a28f-f0965ceaeb7e"
+  } ]
+}

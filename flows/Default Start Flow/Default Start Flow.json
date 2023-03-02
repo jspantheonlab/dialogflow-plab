@@ -1,0 +1,101 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi, I am Vanya, a digital human created by Pantheon Lab. " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "choices": [ {
+            "payload": "plab",
+            "title": "Pantheon Lab"
+          }, {
+            "payload": "products",
+            "title": "Our Products"
+          }, {
+            "payload": "aidol-studio",
+            "title": "AIDOl Studio"
+          } ],
+          "type": "choices"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "76d3424f-e291-4d8f-881b-a0f63b899c5e"
+  }, {
+    "intent": "Pantheon Lab",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Pantheon Lab",
+    "name": "e2bf807f-6235-4173-bf59-aa4f8ec48672"
+  }, {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Our Products",
+    "name": "4f12c926-3a4b-40b9-ac85-cdd1fe6f53c0"
+  }, {
+    "intent": "AIDOL Studio",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIDOL Studio",
+    "name": "ce93ef48-d58b-4c72-b3a2-0be2a9bbbfb1"
+  }, {
+    "intent": "AIVO.ai",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIVO.ai",
+    "name": "c7b3d9de-9f64-4263-9380-0d72ffa79aec"
+  }, {
+    "intent": "adsly.ai",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "adsly.ai",
+    "name": "dc73e679-8874-4254-8f0c-2891b373abff"
+  }, {
+    "intent": "AIDOl Agency",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIDOL Agency",
+    "name": "db354118-61dc-4ce3-9078-700a62d63d4b"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f5806385-7854-42c3-a22e-d13e23335fe6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "15d1e723-cac7-4861-95e8-09c317d201b3"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

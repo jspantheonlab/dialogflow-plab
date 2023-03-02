@@ -1,0 +1,28 @@
+{
+  "name": "c039432e-bbee-456b-bb64-5b56f769075c",
+  "displayName": "AIDOL Studio",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "AIDOL Studio is a SaaS Platform provides flexible AI Human for making videos in a better cost effective way." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "What would you like to know more about this product?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Our Products",
+    "name": "9ae4b8be-e48f-4adb-93d8-5fe4a4753f56"
+  } ]
+}

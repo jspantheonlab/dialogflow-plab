@@ -1,0 +1,67 @@
+{
+  "name": "4856b011-2028-4f19-b315-ae4b357f651c",
+  "displayName": "Our Products",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We have AIVO.ai, adsly.ai and AIDOL Studio, also will have AIDOL Agency and AIDOL Live coming up." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Which product would you like to know about?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "choices": [ {
+          "payload": "aidol studio",
+          "title": "AIDOL Studio"
+        }, {
+          "payload": "adsly",
+          "title": "adsly.ai"
+        }, {
+          "payload": "aivo",
+          "title": "AIVO.ai"
+        }, {
+          "payload": "aidol agency",
+          "title": "AIDOL Agency"
+        } ],
+        "type": "choices"
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "AIDOL Studio",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIDOL Studio",
+    "name": "1833f22d-5331-4cdd-bd6a-1b13b626195b"
+  }, {
+    "intent": "adsly.ai",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "adsly.ai",
+    "name": "d27e596f-24db-45a9-90b1-3c22bd47bd3c"
+  }, {
+    "intent": "AIVO.ai",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIVO.ai",
+    "name": "e1a90cb7-5dec-4f71-bfc5-8ce969c52dd0"
+  }, {
+    "intent": "AIDOL Asisstant",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AIDOL Assistant",
+    "name": "4041c803-cd36-471b-9846-cdda24917f42"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "a122d6d1-e7c7-4e02-8c14-3ead6ced2238",
+  "displayName": "AIVO.ai",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "AIVO.ai is an AI-powered text-to-video creator that helps businesses and content creators produce engaging short videos in minutes—no experience needed." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Our Products",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Our Products",
+    "name": "62febb66-0846-4036-9135-20b0721023af"
+  } ]
+}
