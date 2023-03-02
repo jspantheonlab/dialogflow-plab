@@ -1,15 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "aivo.ai",
-      "auto": true
+      "text": "aivo.ai"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "aivo",
-      "auto": true
+      "text": "aivo"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

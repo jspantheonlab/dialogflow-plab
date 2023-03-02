@@ -1,5 +1,6 @@
 {
   "defaultLanguageCode": "en",
+  "supportedLanguageCodes": [ "zh-hk" ],
   "timeZone": "America/Los_Angeles",
   "projectNumber": 744630778465,
   "speechToTextSettings": {
@@ -7,6 +8,18 @@
   },
   "startFlow": "Default Start Flow",
   "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
     "loggingSettings": {
     
     }

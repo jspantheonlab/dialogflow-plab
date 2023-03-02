@@ -1,0 +1,10 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "aivo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-hk"
+  } ]
+}
