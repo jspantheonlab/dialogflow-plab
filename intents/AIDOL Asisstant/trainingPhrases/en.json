@@ -1,8 +1,7 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "assit",
-      "auto": true
+      "text": "asist"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

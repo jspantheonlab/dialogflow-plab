@@ -29,6 +29,9 @@
         }, {
           "payload": "aidol agency",
           "title": "AIDOL Agency"
+        }, {
+          "payload": "aidol assistant",
+          "title": "AIDOL Assistant"
         } ],
         "type": "choices"
       },
